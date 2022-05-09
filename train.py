@@ -2,7 +2,7 @@ import argparse
 import math
 import h5py
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 import socket
 import importlib
 import os

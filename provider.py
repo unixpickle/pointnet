@@ -1,7 +1,9 @@
 import os
 import sys
-import numpy as np
+
 import h5py
+import numpy as np
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
